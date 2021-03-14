@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 232, 232);
+  
+}
+
+.search {
+  padding-bottom: 10px;
+}
+
+.container {
+  text-align: center;
+  margin: 10px;
+  margin-right: auto;
+  
+}
+
+.delete-button {
+  background-color: red;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.edit-button {
+  background-color: orange;
+  border-radius: 10px;
+}
+td,
+th {
+  padding: 5px;
+}
